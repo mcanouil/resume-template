@@ -18,7 +18,7 @@ source("utils.R")
 
 ## Contact Info {#contact}
 
-- <i class="fa fa-user" style="color: #4169e1;"></i> Currant position
+- <i class="fa fa-user" style="color: #4169e1;"></i> Current position
 - <i class="fa fa-university" style="color: #4169e1;"></i> Lab/Unit's name
 - <i class="fa fa-map-marker" style="color: #4169e1;"></i> City, Country
 - <i class="fa fa-envelope" style="color: #4169e1;"></i> [your [at] email.com](mailto:your@email.com)
