@@ -22,7 +22,7 @@ source("utils.R")
 - <i class="fa fa-university" style="color: #4169e1;"></i> Lab/Unit's name
 - <i class="fa fa-map-marker" style="color: #4169e1;"></i> City, Country
 - <i class="fa fa-envelope" style="color: #4169e1;"></i> [your [at] email.com](mailto:your@email.com)
-- <i class="fa fa-phone" style="color: #4169e1;"></i> +33 (0)3 74 00 81 29
+- <i class="fa fa-phone" style="color: #4169e1;"></i> +33 (0)1 23 45 67 89
 - <i class="fa fa-linkedin" style="color: #4169e1;"></i> [linkedin.com/in/FLastname](https://www.linkedin.com/in/FLastname)
 - <i class="fa fa-github" style="color: #4169e1;"></i> [github.com/FLastname](https://github.com/FLastname)
 - <i class="fa fa-twitter" style="color: #4169e1;"></i> [twitter.com/FLastname](https://twitter.com/FLastname)
