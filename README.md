@@ -1,1 +1,1 @@
-Some Rmakrodwn template using the `pagedown` package with customise css and some R function to format articles for instance.
+Some Rmarkdown template using the `pagedown` package with customised css and some R functions to format articles/packages.
