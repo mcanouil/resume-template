@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558692594320.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3EDECA10",
+    "lastKnownWriteTime" : 1558692602,
+    "last_content_update" : 1558692602709,
+    "path" : "/disks/PROJECT/Mickael/resume_template/myarticles.bib",
+    "project_path" : "myarticles.bib",
+    "properties" : {
+        "cursorPosition" : "14,19",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

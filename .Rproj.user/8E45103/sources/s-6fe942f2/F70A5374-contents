@@ -1,0 +1,6 @@
+project_name=resume_template
+
+curl -u "mcanouil" https://api.github.com/user/repos -d "{\"name\":\"$project_name\"}"
+git remote add origin https://github.com/mcanouil/$project_name.git
+git push -u origin master
+git push origin master
