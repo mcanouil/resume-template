@@ -25,7 +25,7 @@ read_article <- function(.x) {
     doi = clean_field("doi", .x),
     authors = authors, 
     journal = clean_field("journal", .x),
-    first = clean_field("first", .x),
+    first = FALSE, # clean_field("first", .x),
     stringsAsFactors = FALSE
   )
 }
@@ -208,7 +208,7 @@ format_packages_resume <- function(package, author, max) {
         cat("\n")
         cat("::: aside\n")
         cat(
-          "[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version-ago/", ipackage[["name"]], "?color=4169e1)]",
+          "[![GitHub_tag](https://img.shields.io/github/tag/mcanouil/", ipackage[["name"]], ".svg?label=Github&color=4169e1)]",
           "(https://github.com/", ipackage[["user"]], "/", ipackage[["name"]], "/)\n",
           sep = ""
         )
@@ -245,7 +245,7 @@ format_packages_website <- function(package, author, max) {
       EXPR = ipackage[["where"]],
       "GitHub" = {
         cat(
-          "[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version-ago/", ipackage[["name"]], "?color=4169e1)]",
+          "[![GitHub_tag](https://img.shields.io/github/tag/mcanouil/", ipackage[["name"]], ".svg?label=Github&color=4169e1)]",
           "(https://github.com/", ipackage[["user"]], "/", ipackage[["name"]], "/)\n",
           sep = ""
         )
