@@ -424,10 +424,10 @@ h1, h2 {
   body {
     background-color: var(--viewer-background-color);
     margin: 0; /* for mobile */
-    width: calc(var(--width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
+    width: calc(var(--pagedjs-width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
   }
    .pagedjs_pages {
-    max-width: var(--width);
+    max-width: var(--pagedjs-width);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
