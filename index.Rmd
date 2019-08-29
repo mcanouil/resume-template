@@ -35,7 +35,7 @@ source("utils.R")
 
 ## Disclaimer {#disclaimer}
 
-Last updated on `r gsub("May.", "May", format(Sys.Date(), "%B. %Y"))`.
+Last updated on `r Sys.Date()`.
 
 
 
