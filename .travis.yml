@@ -1,0 +1,13 @@
+language: R
+cache: packages
+
+pandoc_version: 2.3.1
+
+script: Rscript -e 'rmarkdown::render(input = "index.Rmd")'
+
+before_deploy: Rscript -e 'remotes::install_cran("pkgdown")'
+
+deploy:
+  provider: script
+  script: Rscript -e 'source("deploy.R"); deploy_site("index.Rmd", commit_message = "curriculum_vitae")'
+  skip_cleanup: true

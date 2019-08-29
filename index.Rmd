@@ -3,7 +3,7 @@ title: "Firstname Lastname - Curriculum Vitæ"
 author: Firstname Lastname
 output:
   pagedown::html_resume:
-    css: ["cv.css"]
+    css: "curriculum_vitae.css"
     mathjax: null
 ---
  
