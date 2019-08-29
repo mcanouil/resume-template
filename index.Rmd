@@ -103,7 +103,7 @@ City, Country
 Date
 
 ::: aside
-[<i class="fa fa-github"></i> Where is the slides](some URL where the slides or poster can be found)
+[<i class="fa fa-github"></i> Where are the slides](some URL where the slides or poster can be found)
 :::
 
 
