@@ -36,3 +36,7 @@ deploy_site <- function(
   pkgdown:::github_push(dest_dir, commit_message)
   cli::rule("Deploy completed", line = 2)
 }
+
+
+deploy_site("index.Rmd", commit_message = "curriculum_vitae")
+
