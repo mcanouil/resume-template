@@ -424,7 +424,7 @@ h1, h2 {
     margin: var(--viewer-pages-spacing) 0;
   }
 }
- @media screen and (min-width: 8.5in) {
+@media screen and (min-width: 8.5in) {
   /* not a mobile */
   body {
     margin: auto;
